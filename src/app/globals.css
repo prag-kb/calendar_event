@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.fc-header-toolbar {
+    position: sticky;
+    top: 0;
+    background-color: white; /* Optional: Add a background color */
+    z-index: 1000; /* Ensure the header stays above other content */
+  }
